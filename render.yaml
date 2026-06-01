@@ -3,8 +3,8 @@ services:
     name: inventory-backend
     env: docker
     plan: free
-    dockerfilePath: ./backend/Dockerfile
-    rootDir: .
+    dockerfilePath: Dockerfile
+    rootDir: backend
     autoDeploy: true
     envVars:
       - key: DATABASE_URL
